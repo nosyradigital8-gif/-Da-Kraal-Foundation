@@ -1,3 +1,5 @@
+'use client'
+
 import { useState } from 'react'
 import {
   ArrowUpRight,
@@ -9,7 +11,7 @@ import {
   Quote,
   X,
 } from 'lucide-react'
-import './styles.css'
+import './globals.css'
 
 const focusAreas = [
   { number: '01', title: 'Community & wellbeing', copy: 'Editable focus area placeholder — confirm the Foundation’s programme focus and language.', accent: 'green' },
@@ -108,3 +110,4 @@ function App() {
 }
 
 export default App
+
